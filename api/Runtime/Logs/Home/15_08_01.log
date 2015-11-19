@@ -1,0 +1,81 @@
+[ 2015-08-01T14:03:36+08:00 ] 222.128.153.248 /api.php?appid=1&m=api&c=content&a=listcontent_part2_3&mobile=18610905643&version=4.3.1&devtype=ios&uuid=55DEBEE6-F986-4CA2-B431-169D71EE8C13&leval=People&pageindex=0&pagenum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( categoryname_e='People' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=43 and con_show=0 and con_del=0 ) ORDER BY con_order ASC  [ RunTime:0.0003s ]
+
+[ 2015-08-01T14:03:39+08:00 ] 222.128.153.248 /api.php?appid=1&m=api&c=content&a=listcontent_part2_3&mobile=18610905643&version=4.3.1&devtype=ios&uuid=55DEBEE6-F986-4CA2-B431-169D71EE8C13&leval=Place&pageindex=0&pagenum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( categoryname_e='Place' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=44 and con_show=0 and con_del=0 ) ORDER BY con_order ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=1 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=2 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=3 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=4 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=5 ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=7 ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=8 ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=9 ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2015-08-01T14:03:41+08:00 ] 222.128.153.248 /api.php?appid=1&m=api&c=content&a=contentinfo&mobile=18610905643&version=4.3.1&devtype=ios&uuid=55DEBEE6-F986-4CA2-B431-169D71EE8C13&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cid /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 217 行.
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `part2_3` WHERE ( appid=1 and id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 277 行.
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=2 ) LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2015-08-01T14:03:44+08:00 ] 222.128.153.248 /api.php?appid=1&m=api&c=content&a=contentinfo&mobile=18610905643&version=4.3.1&devtype=ios&uuid=55DEBEE6-F986-4CA2-B431-169D71EE8C13&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cid /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 217 行.
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `part2_3` WHERE ( appid=1 and id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 277 行.
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18610905643' and q_id=3 ) LIMIT 1   [ RunTime:0.0015s ]
+

@@ -1,0 +1,104 @@
+/*基本样式*/
+@charset "utf-8";
+*{margin:0;padding:0;outline:0 none;}
+body{color:#000; font-family:"微软雅黑",Arial; font-size:12px; vertical-align:baseline; background-color: #ecf0f1;}
+address, cite, dfn, em, var, i, h1, h2, h3, h4, h5, h6 {font-style:normal;}
+ul ,li{list-style: none outside none;}
+a{color:#000;text-decoration: none; cursor: pointer;}
+a:hover{text-decoration:none;}
+img {border: 0 none; vertical-align: middle;}
+#wrapper{margin:0 auto;  min-width:320px;  height:100%;}
+#header, #content, #footer{float:left; width: 100%;}
+/*hshanghai  适配ipd，下面还有很高的红底*/
+#content{display: block;overflow: hidden; min-height: 960px;}
+/* 首页图片 */
+.index{float: left; width: 100%;}
+.index img{float: left; width: 100%; max-width: 640px; min-width:320px;}
+#ready_img { position: absolute; top: 0; }
+#end_img { opacity: 0; position: absolute; top: 0;}
+
+
+
+
+
+/* 音乐控制器 */
+#audio_btn{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 200;
+	display: none;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
+	/*background-size: 100% 100%;*/
+	/*background-position: 0px 0px;*/
+	}
+
+	.loading_background {
+		background-image: url(../images/music_loading.gif);
+		background-size: 30px 30px;
+		opacity: 0.5;
+		background-position: center center;
+	}
+
+	.loading_yinfu {
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		width: 30px;
+		height:30px;
+		background-image: url(../images/yinfu.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.play_yinfu {
+		background-image: url(../images/music.gif);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 60px 60px;
+	}
+
+	.rotate {
+		position: absolute;
+		left: 10px;
+		top: 10px;
+		width: 30px;
+		height: 30px;
+		background-size: 100% 100%;
+		background-image: url(../images/music_off.png);
+		-webkit-animation: rotating 1.2s linear infinite;
+		-moz-animation: rotating 1.2s linear infinite;
+		-o-animation: rotating 1.2s linear infinite;
+		animation: rotating 1.2s linear infinite;
+	}
+
+	@-webkit-keyframes rotating {
+	    from{
+	        -webkit-transform: rotate(0deg);
+	    }
+	    to{
+	        -webkit-transform: rotate(360deg);
+	    }
+	}
+	@keyframes rotating {
+	    from{
+	        transform: rotate(0deg);
+	    }
+	    to{
+	        transform: rotate(360deg);
+	    }
+	}
+
+	@-moz-keyframes rotating {
+	    from{
+	        -moz-transform: rotate(0deg);
+	    }
+	    to{
+	        -moz-transform: rotate(360deg);
+	    }
+	}
+/*#audio_btn.off{background-position: 0px -30px;}*/
+.off{background-image: url(../images/music_off.png);background-size: 30px 30px; background-repeat: no-repeat;background-position: center center;}

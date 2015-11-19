@@ -1,0 +1,911 @@
+[ 2015-08-22T23:58:21+08:00 ] 117.169.6.54 /api.php?appid=1&m=api&c=content&a=listcontent&devtype=android&pageindex=0&pagenum=20&version=1.3.2&uuid=5db84127674255d020a0660cbc186784&leval=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cid /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 62 行.
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=6 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+
+[ 2015-08-22T23:58:21+08:00 ] 114.111.166.145 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=15330266931&version=4.4.3&devtype=ios&uuid=5D2EF9B8-F477-4847-969F-166BBD1E4DC9&cid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=27 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=156 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=157 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=158 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=159 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=160 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:58:23+08:00 ] 114.111.166.145 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=15330266931&version=4.4.3&devtype=ios&uuid=5D2EF9B8-F477-4847-969F-166BBD1E4DC9&cid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=27 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=27 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=156 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=157 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=158 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=159 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15330266931 and q_id=160 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:58:26+08:00 ] 118.248.221.191 /api.php?m=api&c=category&a=listcategory&appid=1&mobile=18397650438&version=4.4.3&devtype=ios&uuid=B2938FCA-E7A6-4743-8E63-A58548FA8ECC&leval=LifeAndLeisure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `category` WHERE ( categoryname_e='LifeAndLeisure' or categoryname='LifeAndLeisure' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=4 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-08-22T23:58:30+08:00 ] 117.169.6.54 /api.php?appid=1&m=api&c=content&a=listcontent&devtype=android&pageindex=0&pagenum=20&version=1.3.2&uuid=5db84127674255d020a0660cbc186784&leval=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cid /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 62 行.
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=6 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+
+[ 2015-08-22T23:58:32+08:00 ] 180.160.175.158 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=13636432058&version=4.4.3&devtype=ios&uuid=9CA54F64-0D91-481B-863B-4012D083FCCA&cid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=7 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13636432058 and q_id=6 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13636432058 and q_id=7 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13636432058 and q_id=8 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13636432058 and q_id=9 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13636432058 and q_id=10 ) LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2015-08-22T23:58:33+08:00 ] 118.248.221.191 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=18397650438&version=4.4.3&devtype=ios&uuid=B2938FCA-E7A6-4743-8E63-A58548FA8ECC&cid=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=19 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18397650438 and q_id=115 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18397650438 and q_id=116 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18397650438 and q_id=117 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18397650438 and q_id=118 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18397650438 and q_id=119 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:58:35+08:00 ] 221.208.71.242 /api.php?m=api&c=category&a=listcategory&appid=1&pid=1&mobile=13796634696&version=4.4.3&devtype=ios&uuid=4834F52D-4198-46D3-BEA4-21123964F6D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=1 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-08-22T23:58:38+08:00 ] 221.208.71.242 /api.php?m=api&c=category&a=listcategory&appid=1&pid=41&mobile=13796634696&version=4.4.3&devtype=ios&uuid=4834F52D-4198-46D3-BEA4-21123964F6D1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=41 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=41 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-08-22T23:58:39+08:00 ] 14.221.62.110 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=13729934487&version=4.4.3&devtype=ios&uuid=26AB6C09-C8EC-4697-89D2-A226ACF077B9&cid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=7 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13729934487 and q_id=6 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13729934487 and q_id=7 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13729934487 and q_id=8 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13729934487 and q_id=9 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13729934487 and q_id=10 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:58:40+08:00 ] 221.208.71.242 /api.php?c=content&a=listcontent_part2_3&mobile=13796634696&version=4.4.3&devtype=ios&uuid=4834F52D-4198-46D3-BEA4-21123964F6D1&leval=Object&appid=1&pageindex=0&pagenum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( categoryname_e='Object' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=46 and con_show=0 and con_del=0 ) ORDER BY con_order ASC  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=436 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=437 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=438 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=439 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=440 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=441 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=442 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=443 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=444 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=445 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=446 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=447 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=448 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=449 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=450 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=451 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=452 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=453 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=454 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=455 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=456 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=457 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=458 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=459 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:58:42+08:00 ] 1.181.153.142 /api.php?m=api&c=category&a=listcategory&appid=1&pid=1&mobile=18004855933&version=4.4.3&devtype=ios&uuid=9197466D-8898-4E6D-9C10-66BE6BC234F6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=1 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2015-08-22T23:58:42+08:00 ] 119.7.222.80 /api.php?m=api&c=category&a=listcategory&appid=1&pid=1&mobile=18628336385&version=4.4.3&devtype=ios&uuid=2FE0FE2F-5D8A-477F-B6AB-DDBC699A4FEB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=1 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-08-22T23:58:43+08:00 ] 221.208.71.242 /api.php?c=content&a=listcontent_part2_3&mobile=13796634696&version=4.4.3&devtype=ios&uuid=4834F52D-4198-46D3-BEA4-21123964F6D1&leval=Event&appid=1&pageindex=0&pagenum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( categoryname_e='Event' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=45 and con_show=0 and con_del=0 ) ORDER BY con_order ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=377 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=378 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=379 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=380 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=381 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=382 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=384 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=385 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=386 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=45 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=387 ) LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-08-22T23:58:43+08:00 ] 118.248.221.191 /api.php?m=api&c=category&a=listcategory&appid=1&mobile=18397650438&version=4.4.3&devtype=ios&uuid=B2938FCA-E7A6-4743-8E63-A58548FA8ECC&leval=LifeAndLeisure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `category` WHERE ( categoryname_e='LifeAndLeisure' or categoryname='LifeAndLeisure' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=4 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-08-22T23:58:46+08:00 ] 183.131.104.230 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=15506920906&version=4.4.3&devtype=ios&uuid=5FADB9D0-DDDB-4219-84AD-6B079BA07E25&cid=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=36 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=36 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15506920906 and q_id=63 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15506920906 and q_id=64 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15506920906 and q_id=65 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15506920906 and q_id=66 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15506920906 and q_id=67 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15506920906 and q_id=68 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:58:48+08:00 ] 220.163.196.65 /api.php?appid=1&m=api&c=activity&a=updateInfo&en_name=kymk&mobile=18366117822&mkdate=2015-08-25&mktype=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0011s ]
+SQL: UPDATE `activity` SET `content`='a:7:{s:5:\"appid\";s:1:\"1\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"kymk\";s:6:\"mobile\";s:11:\"18366117822\";s:6:\"mkdate\";s:10:\"2015-08-25\";s:6:\"mktype\";s:1:\"0\";s:9:\"PHPSESSID\";s:26:\"nhanoqhrqt0nnp8rlo8hf2k854\";}',`info_state`='1' WHERE ( mobile='18366117822' and activity_code='kymk' and appid=1 ) [ RunTime:0.0069s ]
+
+[ 2015-08-22T23:58:48+08:00 ] 1.181.153.142 /api.php?m=api&c=category&a=listcategory&appid=1&pid=41&mobile=18004855933&version=4.4.3&devtype=ios&uuid=9197466D-8898-4E6D-9C10-66BE6BC234F6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=41 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=41 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2015-08-22T23:58:49+08:00 ] 1.181.153.142 /api.php?c=content&a=listcontent_part2_3&mobile=18004855933&version=4.4.3&devtype=ios&uuid=9197466D-8898-4E6D-9C10-66BE6BC234F6&leval=Object&appid=1&pageindex=0&pagenum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( categoryname_e='Object' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=46 and con_show=0 and con_del=0 ) ORDER BY con_order ASC  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=436 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=437 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=438 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=439 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=440 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=441 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=442 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=443 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=444 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=445 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=446 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=447 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=448 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=449 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=450 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=451 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=452 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=453 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=454 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=455 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=456 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=457 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=458 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='18004855933' and q_id=459 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:58:52+08:00 ] 221.178.182.200 /api.php?m=api&c=category&a=listcategory&appid=1&pid=1&mobile=(null)&version=4.4.3&devtype=ios&uuid=416CE8F5-90FB-4257-B50C-8F88D5B642FB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=1 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 48 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-08-22T23:58:53+08:00 ] 221.208.71.242 /api.php?c=content&a=listcontent_part2_3&mobile=13796634696&version=4.4.3&devtype=ios&uuid=4834F52D-4198-46D3-BEA4-21123964F6D1&leval=Place&appid=1&pageindex=0&pagenum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( categoryname_e='Place' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=44 and con_show=0 and con_del=0 ) ORDER BY con_order ASC  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=368 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=369 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=370 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=371 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=372 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=373 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=374 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=375 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=44 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=376 ) LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2015-08-22T23:58:54+08:00 ] 59.38.97.24 /api.php?m=api&c=category&a=listcategory&appid=1&mobile=13825621979&version=4.4.3&devtype=ios&uuid=0F061935-B63E-417B-83CA-8DBFBE1D9605&leval=LifeAndLeisure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `category` WHERE ( categoryname_e='LifeAndLeisure' or categoryname='LifeAndLeisure' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=4 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2015-08-22T23:58:56+08:00 ] 220.163.196.65 /api.php?m=api&c=category&a=listcategory&appid=1&mobile=18366117822&version=4.4.3&devtype=ios&uuid=9E27142C-F5CC-401E-A715-F477034F8C2D&leval=PersonalInformation
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `category` WHERE ( categoryname_e='PersonalInformation' or categoryname='PersonalInformation' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=2 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-08-22T23:58:57+08:00 ] 59.38.97.24 /api.php?m=api&c=category&a=listcategory&appid=1&mobile=13825621979&version=4.4.3&devtype=ios&uuid=0F061935-B63E-417B-83CA-8DBFBE1D9605&leval=HighTechAndAbstract
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `category` WHERE ( categoryname_e='HighTechAndAbstract' or categoryname='HighTechAndAbstract' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=5 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2015-08-22T23:58:57+08:00 ] 221.178.182.187 /api.php?m=api&c=category&a=listcategory&appid=1&mobile=(null)&version=4.4.3&devtype=ios&uuid=416CE8F5-90FB-4257-B50C-8F88D5B642FB&leval=Hobby
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `category` WHERE ( categoryname_e='Hobby' or categoryname='Hobby' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 and pid=3 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-08-22T23:58:58+08:00 ] 220.163.196.65 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=18366117822&version=4.4.3&devtype=ios&uuid=9E27142C-F5CC-401E-A715-F477034F8C2D&cid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=6 ) LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=1 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=2 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=3 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=4 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=5 ) LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-08-22T23:58:58+08:00 ] 221.178.182.207 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=(null)&version=4.4.3&devtype=ios&uuid=416CE8F5-90FB-4257-B50C-8F88D5B642FB&cid=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=35 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=35 ) LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=(null) and q_id=58 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=(null) and q_id=59 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=(null) and q_id=60 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=(null) and q_id=61 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=(null) and q_id=62 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:58:58+08:00 ] 221.208.71.242 /api.php?c=content&a=listcontent_part2_3&mobile=13796634696&version=4.4.3&devtype=ios&uuid=4834F52D-4198-46D3-BEA4-21123964F6D1&leval=People&appid=1&pageindex=0&pagenum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( categoryname_e='People' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=43 and con_show=0 and con_del=0 ) ORDER BY con_order ASC  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=361 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=362 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=363 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=364 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=365 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=366 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=367 ) LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-08-22T23:58:59+08:00 ] 59.38.97.24 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=13825621979&version=4.4.3&devtype=ios&uuid=0F061935-B63E-417B-83CA-8DBFBE1D9605&cid=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=31 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=176 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=177 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=178 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=179 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=180 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:58:59+08:00 ] 220.163.196.65 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=18366117822&version=4.4.3&devtype=ios&uuid=9E27142C-F5CC-401E-A715-F477034F8C2D&cid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=6 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=2 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=3 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=4 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=18366117822 and q_id=5 ) LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-08-22T23:59:02+08:00 ] 59.38.97.24 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=13825621979&version=4.4.3&devtype=ios&uuid=0F061935-B63E-417B-83CA-8DBFBE1D9605&cid=31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=31 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=176 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=177 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=178 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=179 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=13825621979 and q_id=180 ) LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-08-22T23:59:03+08:00 ] 221.208.71.242 /api.php?c=content&a=listcontent_part2_3&mobile=13796634696&version=4.4.3&devtype=ios&uuid=4834F52D-4198-46D3-BEA4-21123964F6D1&leval=Object&appid=1&pageindex=0&pagenum=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( categoryname_e='Object' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=46 and con_show=0 and con_del=0 ) ORDER BY con_order ASC  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=436 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=437 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=438 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=439 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=440 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=441 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=442 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=443 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=444 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=445 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=446 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=447 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=448 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=449 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=450 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=451 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=452 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=453 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=454 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=455 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=456 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=457 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=458 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `category` WHERE ( id=46 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=459 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:59:09+08:00 ] 222.85.69.143 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=15083437501&version=4.4.3&devtype=ios&uuid=CEAC18E9-C602-4ACA-A121-3794EC1FA8BE&cid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=8 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=11 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=12 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=13 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=14 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=15 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=16 ) LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2015-08-22T23:59:12+08:00 ] 222.85.69.143 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=15083437501&version=4.4.3&devtype=ios&uuid=CEAC18E9-C602-4ACA-A121-3794EC1FA8BE&cid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=8 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=11 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=12 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=13 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=14 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=15 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=16 ) LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-08-22T23:59:37+08:00 ] 221.208.71.242 /api.php?m=api&c=content&a=contentinfo&appid=1&mobile=13796634696&version=4.4.3&devtype=ios&uuid=4834F52D-4198-46D3-BEA4-21123964F6D1&id=453
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: cid /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 217 行.
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part2_3` WHERE ( appid=1 and id=453 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 252 行.
+NOTIC: [2] Invalid argument supplied for foreach() /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 278 行.
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part2_3' and mobile='13796634696' and q_id=453 ) LIMIT 1   [ RunTime:0.0018s ]
+
+[ 2015-08-22T23:59:41+08:00 ] 222.85.69.143 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=15083437501&version=4.4.3&devtype=ios&uuid=CEAC18E9-C602-4ACA-A121-3794EC1FA8BE&cid=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=8 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=11 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=12 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=13 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=14 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=15 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=16 ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2015-08-22T23:59:49+08:00 ] 222.85.69.143 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=15083437501&version=4.4.3&devtype=ios&uuid=CEAC18E9-C602-4ACA-A121-3794EC1FA8BE&cid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=9 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=17 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=18 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=19 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=20 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=21 ) LIMIT 1   [ RunTime:0.0017s ]
+
+[ 2015-08-22T23:59:51+08:00 ] 222.85.69.143 /api.php?m=api&c=content&a=listcontent&appid=1&mobile=15083437501&version=4.4.3&devtype=ios&uuid=CEAC18E9-C602-4ACA-A121-3794EC1FA8BE&cid=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=1 and cateid=9 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=17 ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=18 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=19 ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=20 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=1 and template='part1' and mobile=15083437501 and q_id=21 ) LIMIT 1   [ RunTime:0.0017s ]
+

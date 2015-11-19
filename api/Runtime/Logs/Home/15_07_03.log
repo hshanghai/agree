@@ -1,0 +1,15 @@
+[ 2015-07-03T09:24:27+08:00 ] 58.132.173.6 /api.php?c=content&a=listcontent&appid=2&cid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: page /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT `template` FROM `category` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part1` WHERE (  appid=2 and cateid=28 ) LIMIT 0,10   [ RunTime:0.0003s ]
+

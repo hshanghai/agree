@@ -1,0 +1,1338 @@
+[ 2015-09-01T09:50:13+08:00 ] 58.132.173.6 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+
+[ 2015-09-01T09:50:17+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined index: submit /usr/www/appserver/admin/Home/Controller/LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2015-09-01T09:50:27+08:00 ] 203.100.95.139 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE ( username='han' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username='han' and password='075afa2c290b0c2398909bfef308479d' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+
+[ 2015-09-01T09:50:28+08:00 ] 203.100.95.139 /admin.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+
+[ 2015-09-01T09:50:32+08:00 ] 203.100.95.139 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2015-09-01T09:50:35+08:00 ] 203.100.95.139 /admin.php?c=appmanagement&a=selectapp&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-09-01T09:50:36+08:00 ] 203.100.95.139 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-09-01T09:50:59+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /usr/www/appserver/admin/Home/Controller/CastController.class.php on line 30 and defined /usr/www/appserver/ThinkPHP/Library/Think/Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/ThinkPHP/Library/Think/Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/ThinkPHP/Library/Think/Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/ThinkPHP/Library/Think/Model.class.php 第 1796 行.
+SQL: SELECT * FROM `castmessage`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-09-01T10:01:32+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-09-01T10:01:36+08:00 ] 203.100.95.139 /admin.php?c=cast&a=offlabelcon&c_del=1&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0008s ]
+SQL: UPDATE `castmessage` SET `c_del`='1',`create_name`='han' WHERE ( appid=1 and id=1 ) [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-09-01T10:01:37+08:00 ] 203.100.95.139 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-09-01T10:01:42+08:00 ] 203.100.95.139 /admin.php?c=cast&a=offlabelcon&c_del=1&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0008s ]
+SQL: UPDATE `castmessage` SET `c_del`='1',`create_name`='han' WHERE ( appid=1 and id=2 ) [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2015-09-01T10:01:43+08:00 ] 203.100.95.139 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-09-01T10:01:45+08:00 ] 203.100.95.139 /admin.php?c=cast&a=offlabelcon&c_del=1&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: UPDATE `castmessage` SET `c_del`='1',`create_name`='han' WHERE ( appid=1 and id=3 ) [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2015-09-01T10:01:46+08:00 ] 203.100.95.139 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-09-01T10:01:47+08:00 ] 203.100.95.139 /admin.php?c=cast&a=offlabelcon&c_del=1&id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: UPDATE `castmessage` SET `c_del`='1',`create_name`='han' WHERE ( appid=1 and id=4 ) [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2015-09-01T10:01:48+08:00 ] 203.100.95.139 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2015-09-01T10:05:04+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+
+[ 2015-09-01T10:05:45+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-09-01T13:04:21+08:00 ] 203.100.95.139 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2015-09-01T13:04:22+08:00 ] 203.100.95.139 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-09-01T13:04:32+08:00 ] 203.100.95.139 /admin.php?m=admin&c=statistics&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( FROM_UNIXTIME(regdate,'%Y-%m-%d') = '2015-09-01' and devtype='ios' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( FROM_UNIXTIME(regdate,'%Y-%m-%d') = '2015-09-01' and devtype='android' ) LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-09-01T13:04:46+08:00 ] 203.100.95.139 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0004s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1460 ) [ RunTime:0.0067s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1459 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1458 ) [ RunTime:0.0060s ]
+SQL: UPDATE `app_user` SET `user_location`='湖北' WHERE ( id=1457 ) [ RunTime:0.0232s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1456 ) [ RunTime:0.0072s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1455 ) [ RunTime:0.0044s ]
+SQL: UPDATE `app_user` SET `user_location`='湖南' WHERE ( id=1454 ) [ RunTime:0.0072s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=1453 ) [ RunTime:0.0060s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1452 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='重庆' WHERE ( id=1451 ) [ RunTime:0.0072s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1450 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='吉林' WHERE ( id=1449 ) [ RunTime:0.0055s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=1448 ) [ RunTime:0.0049s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=1447 ) [ RunTime:0.0056s ]
+SQL: UPDATE `app_user` SET `user_location`='重庆' WHERE ( id=1446 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1445 ) [ RunTime:0.0042s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=1444 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1443 ) [ RunTime:0.0071s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1442 ) [ RunTime:0.0058s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1441 ) [ RunTime:0.0065s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=1440 ) [ RunTime:0.0068s ]
+SQL: UPDATE `app_user` SET `user_location`='湖南' WHERE ( id=1439 ) [ RunTime:0.0061s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=1438 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1437 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1436 ) [ RunTime:0.0043s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=1435 ) [ RunTime:0.0064s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=1434 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='陕西' WHERE ( id=1433 ) [ RunTime:0.0084s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=1432 ) [ RunTime:0.0064s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=1431 ) [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+
+[ 2015-09-01T13:04:46+08:00 ] 58.132.173.6 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+
+[ 2015-09-01T13:04:46+08:00 ] 203.100.95.139 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-09-01T19:53:27+08:00 ] 111.161.35.123 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+
+[ 2015-09-01T19:53:30+08:00 ] 111.161.35.123 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined index: submit /usr/www/appserver/admin/Home/Controller/LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-09-01T20:06:18+08:00 ] 111.161.35.123 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE ( username='hejianxin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username='hejianxin' and password='cb2de6a3de3163cfa7d7fdfd2d51bbdf' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+
+[ 2015-09-01T20:06:19+08:00 ] 111.161.35.123 /admin.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-09-01T20:06:22+08:00 ] 111.161.35.123 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-09-01T20:06:25+08:00 ] 111.161.35.123 /admin.php?c=appmanagement&a=selectapp&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2015-09-01T20:06:26+08:00 ] 111.161.35.123 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2015-09-01T20:06:27+08:00 ] 111.161.35.123 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-09-01T20:06:36+08:00 ] 111.161.35.123 /admin.php?m=admin&c=Cast&a=editcast&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `castmessage` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `apps`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 415 行.
+NOTIC: [8] Undefined index: date /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 460 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-09-01T20:07:32+08:00 ] 111.161.35.123 /admin.php?m=admin&c=Cast&a=insertcast&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: UPDATE `castmessage` SET `appid`='1',`devtype`='ios',`c_order`='0',`title`='笨鸟雅思听力强势上线，立即获取！',`content`='笨鸟雅思听力强势上线，立即获取！',`url`='https://itunes.apple.com/us/app/ben-niao-ya-si-ting-li/id1020623230',`c_date`='',`create_time`='1441109214',`create_name`='hejianxin' WHERE ( id=5 ) [ RunTime:0.0066s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT `device_tokens`,`devtype` FROM `app_user` WHERE ( device_tokens !='' and devtype='ios' )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 123 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 123 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 128 行.
+SQL: UPDATE `castmessage` SET `total`='243',`num`='241' WHERE ( id=5 ) [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-09-01T20:07:33+08:00 ] 111.161.35.123 /admin.php?m=admin&c=Cast&a=editcast&id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `castmessage` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `apps`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 415 行.
+NOTIC: [8] Undefined index: date /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 460 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+

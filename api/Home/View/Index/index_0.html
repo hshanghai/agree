@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="__PUBLIC__/css/agree/lanrenzhijia.css" media="all">
+    <script src="__PUBLIC__/js/agree/jquery.min.js"></script>
+<script>
+jQuery(document).ready(function($) {
+	$('.theme-login').click(function(){
+		$('.theme-popover-mask').fadeIn(100);
+		$('.theme-popover').slideDown(200);
+	})
+	$('.theme-poptit .close').click(function(){
+		$('.theme-popover-mask').fadeOut(100);
+		$('.theme-popover').slideUp(200);
+	})
+     //异步请求
+     $("#han_cn").click(function(){
+	     $.ajax({url:'/index.php?m=app&c=index&a=click_num&type=1&agree_id=1',data:{},success:function(data){
+		     $("#total").html(data);
+		     $("#han_cn").css("color","grey");
+		     $("#han_cn").unbind("click");
+	     }})
+	     
+     })
+     $("#han_mycl").click(function(){
+	     $.ajax({url:'/index.php?m=app&c=index&a=click_num&type=2&agree_id=1',data:{},success:function(data){
+		     $("#han_mycl").css("color","grey");
+		     $("#han_mycl").unbind("click");
+	     }})
+	     
+     })
+     
+})
+
+</script>
+</head>
+<body style=" background:#a8d1fe;color: #fff;">
+<div class="top" avalonctrl="test" >
+
+    <div class="byq" style=" background:#a8d1fe; ">
+        <div style="width: 300px;margin: 0 auto;padding: 15px 0">
+            <p id="cl" style="width: 200px;font-size: 20px;color: #fff;text-align: center;margin: 0 auto;margin-top: 10px; font:Arial, Helvetica, sans-serif;">
+                我司</p>
+            <p id="cl" style="width: 150px;font-size: 15px;color: #fff;text-align: center;margin: 0 auto;margin-top: 10px">
+                服务承诺</p>
+        </div>
+    </div>
+    <div style="width: 100%;padding: 20px 0"> 
+        <p style="width: 250px;margin: 0 auto;font-size: 18px; text-align:center; height:25px;">
+            品质优良&nbsp;&nbsp;&nbsp;&nbsp;保证供应 
+		</p>
+         <p style="width: 250px;margin: 0 auto;font-size: 18px;text-align:center; height:25px;">
+           计量准确&nbsp;&nbsp;&nbsp;&nbsp;诚信经营 
+        </p>
+         <p style="width: 250px;margin: 0 auto;font-size: 18px;text-align:center; height:25px;">
+           专业快捷&nbsp;&nbsp;&nbsp;&nbsp;安全放心
+        </p>         
+        <p style="width: 250px;margin: 0 auto;font-size: 18px;text-align:center; height:25px;">
+           整洁有序&nbsp;&nbsp;&nbsp;&nbsp;环境优美 
+        </p>
+        <p style="width: 250px;margin: 0 auto;font-size: 18px;text-align:center; height:25px;">
+           微笑服务&nbsp;&nbsp;&nbsp;&nbsp;真诚热情
+        </p>
+    </div>
+</div>
+
+<div class="main" avalonctrl="test" >
+    <div class="byq" >
+        <div style="width: 300px;margin: 0 auto;padding: 15px 0">
+	        <!--/index.php?m=app&c=index&a=click_num&type=1&agree_id=1-->
+           <a href="#" id="han_cn" style="text-decoration:none;color: #ffffff;"> <p id="cl" style="width: 150px;font-size: 25px;background:#FC0;text-align: center;margin: 0 auto;margin-top: 10px;border-radius:5px;">
+                我承诺</p></a>
+        </div>
+    </div>
+    <div style="width: 100%;padding: 20px 0">
+        
+        <div style="width: 250px;margin: 0 auto;font-size: 15px; padding-bottom:20px;border-bottom:2px double #FFF;">
+            从我做起，用优异稳健的业绩，质优量，舒心满意的服务，安全清洁的环境，守法合规的言行，赢得客户的信赖。
+        </div>
+         <p style="font-size: 12px;text-align: center; ">已有<span id="total">{$total}</span>人正在履行承诺</p>
+    </div>
+        <div style="width: 300px;margin: 0 auto; " class="theme-buy">
+        <a href="" style="text-decoration:none;"> <p id="cl" style="width: 280px;font-size: 25px;background:#63F;color:#ffffff;text-align: center;margin: 0 auto;border-radius:5px;">
+                第一种承诺</p></a>
+            <a class="btn btn-primary btn-large theme-login"  href="javascript:;"><span id="cl" style="width: 100px;font-size: 25px;background:#F60;color: #ffffff;text-align: center;margin: 20px; float:left;border-radius:5px;" >留言</span></a>
+           <!--/index.php?m=app&c=index&a=click_num&type=2&agree_id=1-->
+           <a href="#" id="han_mycl" style="text-decoration:none;color: #ffffff;"> <span id="mycl" style="width:100px;font-size: 25px;background:#6FF;text-align: center;margin: 20px; float:right;border-radius:5px;">点赞</span></a>
+        </div>
+</div>
+
+<div class="theme-popover">
+     <div class="theme-poptit">
+          <a href="javascript:;" title="关闭" class="close">×</a>
+     </div>
+     <div class="theme-popbod dform">
+           <form class="theme-signin" name="loginform" action="/index.php?m=app&c=index&a=message" method="post">
+                <ol>
+	                <div style="display: none">
+	                <input type="radio" name="agree_id" value="1" checked="checked" />承诺1
+					</div>
+                     <li><strong>姓名：</strong><input class="ipt" type="text" name="name" value="" size="20" /></li>
+                     <li><strong>单位：</strong><input class="ipt" type="text" name="company" value="" size="20" /></li>
+                     <li><strong>留言：</strong>
+                     <!-- <input class="ipt" type="test" name="content" value="" size="20" /> -->
+                     <textarea name="content" ></textarea>
+                     </li>
+                     <li><input class="btn btn-primary" type="submit" name="submit" value="确定" /></li>
+                </ol>
+           </form>
+     </div>
+</div>
+<div class="theme-popover-mask"></div>
+</body>
+</html>

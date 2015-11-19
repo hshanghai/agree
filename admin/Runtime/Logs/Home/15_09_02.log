@@ -1,0 +1,1136 @@
+[ 2015-09-02T09:16:09+08:00 ] 203.100.95.139 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-09-02T09:16:12+08:00 ] 203.100.95.139 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined index: submit /usr/www/appserver/admin/Home/Controller/LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2015-09-02T09:16:25+08:00 ] 203.100.95.139 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE ( username='han' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username='han' and password='075afa2c290b0c2398909bfef308479d' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+
+[ 2015-09-02T09:16:27+08:00 ] 203.100.95.139 /admin.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+
+[ 2015-09-02T09:16:30+08:00 ] 203.100.95.139 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2015-09-02T09:16:36+08:00 ] 203.100.95.139 /admin.php?c=appmanagement&a=selectapp&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2015-09-02T09:16:37+08:00 ] 203.100.95.139 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2015-09-02T09:16:41+08:00 ] 203.100.95.139 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `castmessage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `castmessage` WHERE ( c_del=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: m_order /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 362 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2015-09-02T09:17:23+08:00 ] 203.100.95.139 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0004s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1602 ) [ RunTime:0.0116s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1601 ) [ RunTime:0.0068s ]
+SQL: UPDATE `app_user` SET `user_location`='吉林' WHERE ( id=1600 ) [ RunTime:0.0167s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1599 ) [ RunTime:0.0091s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=1598 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1597 ) [ RunTime:0.0043s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=1596 ) [ RunTime:0.0058s ]
+SQL: UPDATE `app_user` SET `user_location`='广西' WHERE ( id=1595 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='重庆' WHERE ( id=1594 ) [ RunTime:0.0127s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=1593 ) [ RunTime:0.0055s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1592 ) [ RunTime:0.0062s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1591 ) [ RunTime:0.0050s ]
+SQL: UPDATE `app_user` SET `user_location`='甘肃' WHERE ( id=1590 ) [ RunTime:0.0140s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1589 ) [ RunTime:0.0061s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1588 ) [ RunTime:0.0062s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1587 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1586 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1585 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=1584 ) [ RunTime:0.0097s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1583 ) [ RunTime:0.0070s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1582 ) [ RunTime:0.0054s ]
+SQL: UPDATE `app_user` SET `user_location`='吉林' WHERE ( id=1581 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=1580 ) [ RunTime:0.0063s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1579 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1578 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1577 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='贵州' WHERE ( id=1576 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='江西' WHERE ( id=1575 ) [ RunTime:0.0077s ]
+SQL: UPDATE `app_user` SET `user_location`='云南' WHERE ( id=1574 ) [ RunTime:0.0064s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=1573 ) [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-09-02T15:25:58+08:00 ] 58.132.173.6 /admin.php?m=admin&c=statistics&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( FROM_UNIXTIME(regdate,'%Y-%m-%d') = '2015-09-02' and devtype='ios' ) LIMIT 1   [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( FROM_UNIXTIME(regdate,'%Y-%m-%d') = '2015-09-02' and devtype='android' ) LIMIT 1   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/e11d6036c6e2addf2e2c010dda424dbb.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2015-09-02T15:25:59+08:00 ] 58.132.173.6 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-09-02T15:26:02+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Undefined index: submit /usr/www/appserver/admin/Home/Controller/LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-09-02T15:26:10+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE ( username='han' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username='han' and password='075afa2c290b0c2398909bfef308479d' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-09-02T15:26:11+08:00 ] 58.132.173.6 /admin.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+
+[ 2015-09-02T15:26:14+08:00 ] 58.132.173.6 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-09-02T15:26:16+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=selectapp&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2015-09-02T15:26:17+08:00 ] 58.132.173.6 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-09-02T15:26:28+08:00 ] 58.132.173.6 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0004s ]
+SQL: UPDATE `app_user` SET `user_location`='广西' WHERE ( id=1659 ) [ RunTime:0.0063s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1658 ) [ RunTime:0.0178s ]
+SQL: UPDATE `app_user` SET `user_location`='湖北' WHERE ( id=1657 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1656 ) [ RunTime:0.0092s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1655 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='河北' WHERE ( id=1654 ) [ RunTime:0.0043s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1653 ) [ RunTime:0.0067s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=1652 ) [ RunTime:0.0040s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=1651 ) [ RunTime:0.0058s ]
+SQL: UPDATE `app_user` SET `user_location`='云南' WHERE ( id=1650 ) [ RunTime:0.0050s ]
+SQL: UPDATE `app_user` SET `user_location`='海南' WHERE ( id=1649 ) [ RunTime:0.0055s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=1648 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='江西' WHERE ( id=1647 ) [ RunTime:0.0060s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1646 ) [ RunTime:0.0077s ]
+SQL: UPDATE `app_user` SET `user_location`='湖北' WHERE ( id=1645 ) [ RunTime:0.0044s ]
+SQL: UPDATE `app_user` SET `user_location`='云南' WHERE ( id=1644 ) [ RunTime:0.0064s ]
+SQL: UPDATE `app_user` SET `user_location`='湖南' WHERE ( id=1643 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='黑龙江' WHERE ( id=1642 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1641 ) [ RunTime:0.0072s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1640 ) [ RunTime:0.0039s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=1639 ) [ RunTime:0.0042s ]
+SQL: UPDATE `app_user` SET `user_location`='湖南' WHERE ( id=1638 ) [ RunTime:0.0054s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=1637 ) [ RunTime:0.0041s ]
+SQL: UPDATE `app_user` SET `user_location`='陕西' WHERE ( id=1636 ) [ RunTime:0.0042s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=1635 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='湖北' WHERE ( id=1634 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=1633 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='贵州' WHERE ( id=1632 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1631 ) [ RunTime:0.0056s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=1630 ) [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 411 行.
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Runtime/Cache/Home/1b9c46dcef532feb711bddf3c94e5875.php 第 412 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2015-09-02T15:36:09+08:00 ] 58.132.173.6 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0004s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1661 ) [ RunTime:0.0075s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=1660 ) [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2015-09-02T16:02:27+08:00 ] 121.42.0.36 /admin.php?m=admin&c=statistics&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( FROM_UNIXTIME(regdate,'%Y-%m-%d') = '2015-09-02' and devtype='ios' ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( FROM_UNIXTIME(regdate,'%Y-%m-%d') = '2015-09-02' and devtype='android' ) LIMIT 1   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/e11d6036c6e2addf2e2c010dda424dbb.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-09-02T16:03:47+08:00 ] 121.42.0.36 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+
+[ 2015-09-02T16:05:26+08:00 ] 121.42.0.36 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+
+[ 2015-09-02T16:26:18+08:00 ] 58.132.173.6 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+
+[ 2015-09-02T16:26:21+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: submit /usr/www/appserver/admin/Home/Controller/LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-09-02T16:26:27+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE ( username='hejianxin' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username='hejianxin' and password='cb2de6a3de3163cfa7d7fdfd2d51bbdf' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+
+[ 2015-09-02T16:26:29+08:00 ] 58.132.173.6 /admin.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+
+[ 2015-09-02T16:26:32+08:00 ] 58.132.173.6 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-09-02T16:26:34+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=selectapp&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-09-02T16:26:35+08:00 ] 58.132.173.6 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-09-02T16:26:42+08:00 ] 58.132.173.6 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0003s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1676 ) [ RunTime:0.0060s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1675 ) [ RunTime:0.0061s ]
+SQL: UPDATE `app_user` SET `user_location`='黑龙江' WHERE ( id=1674 ) [ RunTime:0.0061s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=1673 ) [ RunTime:0.0043s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=1672 ) [ RunTime:0.0044s ]
+SQL: UPDATE `app_user` SET `user_location`='内蒙古' WHERE ( id=1671 ) [ RunTime:0.0069s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1670 ) [ RunTime:0.0042s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1669 ) [ RunTime:0.0179s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1668 ) [ RunTime:0.0063s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1667 ) [ RunTime:0.0071s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1666 ) [ RunTime:0.0055s ]
+SQL: UPDATE `app_user` SET `user_location`='江西' WHERE ( id=1665 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1664 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='江西' WHERE ( id=1663 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=1662 ) [ RunTime:0.0055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-09-02T16:27:03+08:00 ] 58.132.173.6 /admin.php?m=Home&c=User&a=listuser&m=admin&p=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 150,30   [ RunTime:0.0011s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1526 ) [ RunTime:0.0100s ]
+SQL: UPDATE `app_user` SET `user_location`='陕西' WHERE ( id=1525 ) [ RunTime:0.0085s ]
+SQL: UPDATE `app_user` SET `user_location`='黑龙江' WHERE ( id=1524 ) [ RunTime:0.0041s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=1523 ) [ RunTime:0.0072s ]
+SQL: UPDATE `app_user` SET `user_location`='江西' WHERE ( id=1522 ) [ RunTime:0.0060s ]
+SQL: UPDATE `app_user` SET `user_location`='陕西' WHERE ( id=1521 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=1520 ) [ RunTime:0.0072s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1519 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=1518 ) [ RunTime:0.0038s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1517 ) [ RunTime:0.0040s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=1516 ) [ RunTime:0.0041s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1515 ) [ RunTime:0.0054s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1514 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='陕西' WHERE ( id=1513 ) [ RunTime:0.0054s ]
+SQL: UPDATE `app_user` SET `user_location`='内蒙古' WHERE ( id=1512 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1511 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='广西' WHERE ( id=1510 ) [ RunTime:0.0044s ]
+SQL: UPDATE `app_user` SET `user_location`='河北' WHERE ( id=1509 ) [ RunTime:0.0083s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=1508 ) [ RunTime:0.0057s ]
+SQL: UPDATE `app_user` SET `user_location`='云南' WHERE ( id=1507 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=1506 ) [ RunTime:0.0040s ]
+SQL: UPDATE `app_user` SET `user_location`='湖南' WHERE ( id=1505 ) [ RunTime:0.0064s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=1504 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1503 ) [ RunTime:0.0049s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1502 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1501 ) [ RunTime:0.0053s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=1500 ) [ RunTime:0.0049s ]
+SQL: UPDATE `app_user` SET `user_location`='黑龙江' WHERE ( id=1499 ) [ RunTime:0.0041s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1498 ) [ RunTime:0.0050s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=1497 ) [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013836s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-09-02T16:28:19+08:00 ] 58.132.173.6 /admin.php?m=admin&c=user&a=listuser&old_time=08%2F20%2F2015&current_time=09%2F02%2F2015&mobile=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( regdate > 1440000000 and regdate < 1441123200 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `app_user` WHERE ( regdate > 1440000000 and regdate < 1441123200 ) ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0005s ]
+SQL: UPDATE `app_user` SET `user_location`='甘肃' WHERE ( id=1567 ) [ RunTime:0.0100s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1566 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1565 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=1564 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1563 ) [ RunTime:0.0059s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1562 ) [ RunTime:0.0056s ]
+SQL: UPDATE `app_user` SET `user_location`='云南' WHERE ( id=1561 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=1560 ) [ RunTime:0.0066s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1559 ) [ RunTime:0.0067s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=1558 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='陕西' WHERE ( id=1557 ) [ RunTime:0.0058s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1556 ) [ RunTime:0.0049s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1555 ) [ RunTime:0.0082s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=1554 ) [ RunTime:0.0061s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1553 ) [ RunTime:0.0064s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=1552 ) [ RunTime:0.0059s ]
+SQL: UPDATE `app_user` SET `user_location`='江西' WHERE ( id=1551 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=1550 ) [ RunTime:0.0076s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1548 ) [ RunTime:0.0053s ]
+SQL: UPDATE `app_user` SET `user_location`='河北' WHERE ( id=1547 ) [ RunTime:0.0056s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1546 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1545 ) [ RunTime:0.0094s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=1544 ) [ RunTime:0.0043s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=1543 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=1542 ) [ RunTime:0.0050s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=1541 ) [ RunTime:0.0050s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=1540 ) [ RunTime:0.0053s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1539 ) [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-09-02T16:28:32+08:00 ] 58.132.173.6 /admin.php?m=Home&c=User&a=listuser&m=admin&old_time=08%2F20%2F2015&current_time=09%2F02%2F2015&mobile=&p=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( regdate > 1440000000 and regdate < 1441123200 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `app_user` WHERE ( regdate > 1440000000 and regdate < 1441123200 ) ORDER BY id DESC LIMIT 270,30   [ RunTime:0.0025s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=1262 ) [ RunTime:0.0069s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1261 ) [ RunTime:0.0050s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=1260 ) [ RunTime:0.0053s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=1259 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='河北' WHERE ( id=1258 ) [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-09-02T16:36:27+08:00 ] 58.132.173.6 /admin.php?m=admin&c=statistics&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( FROM_UNIXTIME(regdate,'%Y-%m-%d') = '2015-09-02' and devtype='ios' ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( FROM_UNIXTIME(regdate,'%Y-%m-%d') = '2015-09-02' and devtype='android' ) LIMIT 1   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2015-09-02T16:36:34+08:00 ] 58.132.173.6 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0004s ]
+SQL: UPDATE `app_user` SET `user_location`='湖北' WHERE ( id=1679 ) [ RunTime:0.0086s ]
+SQL: UPDATE `app_user` SET `user_location`='甘肃' WHERE ( id=1678 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1677 ) [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-09-02T16:36:44+08:00 ] 58.132.173.6 /admin.php?m=Home&c=User&a=listuser&m=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 30,30   [ RunTime:0.0004s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1629 ) [ RunTime:0.0058s ]
+SQL: UPDATE `app_user` SET `user_location`='贵州' WHERE ( id=1628 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=1627 ) [ RunTime:0.0059s ]
+SQL: UPDATE `app_user` SET `user_location`='湖南' WHERE ( id=1626 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='重庆' WHERE ( id=1625 ) [ RunTime:0.0039s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=1624 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=1623 ) [ RunTime:0.0041s ]
+SQL: UPDATE `app_user` SET `user_location`='重庆' WHERE ( id=1622 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=1621 ) [ RunTime:0.0053s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=1620 ) [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+

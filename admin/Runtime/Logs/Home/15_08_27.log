@@ -1,0 +1,2645 @@
+[ 2015-08-27T09:32:59+08:00 ] 58.132.173.6 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+
+[ 2015-08-27T09:33:03+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: submit /usr/www/appserver/admin/Home/Controller/LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-08-27T09:33:14+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE ( username='han' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username='han' and password='075afa2c290b0c2398909bfef308479d' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+
+[ 2015-08-27T09:33:15+08:00 ] 58.132.173.6 /admin.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-08-27T09:33:19+08:00 ] 58.132.173.6 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-08-27T09:34:03+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=selectapp&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-08-27T09:34:04+08:00 ] 58.132.173.6 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-08-27T10:00:33+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+ERR: 非法操作:listcast
+
+[ 2015-08-27T10:06:37+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-08-27T10:06:55+08:00 ] 58.132.173.6 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0004s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2579 ) [ RunTime:0.0304s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2578 ) [ RunTime:0.0040s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=2577 ) [ RunTime:0.0081s ]
+SQL: UPDATE `app_user` SET `user_location`='湖北' WHERE ( id=2576 ) [ RunTime:0.0044s ]
+SQL: UPDATE `app_user` SET `user_location`='吉林' WHERE ( id=2575 ) [ RunTime:0.0042s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=2574 ) [ RunTime:0.0058s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2573 ) [ RunTime:0.0050s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=2572 ) [ RunTime:0.0055s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=2571 ) [ RunTime:0.0061s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=2570 ) [ RunTime:0.0059s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=2569 ) [ RunTime:0.0058s ]
+SQL: UPDATE `app_user` SET `user_location`='海南' WHERE ( id=2568 ) [ RunTime:0.0060s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=2567 ) [ RunTime:0.0054s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=2566 ) [ RunTime:0.0093s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=2565 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2564 ) [ RunTime:0.0125s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=2563 ) [ RunTime:0.0054s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=2562 ) [ RunTime:0.0063s ]
+SQL: UPDATE `app_user` SET `user_location`='福建' WHERE ( id=2561 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='黑龙江' WHERE ( id=2560 ) [ RunTime:0.0054s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=2559 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2558 ) [ RunTime:0.0073s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2557 ) [ RunTime:0.0070s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2556 ) [ RunTime:0.0042s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2555 ) [ RunTime:0.0069s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=2554 ) [ RunTime:0.0053s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2553 ) [ RunTime:0.0059s ]
+SQL: UPDATE `app_user` SET `user_location`='福建' WHERE ( id=2552 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='重庆' WHERE ( id=2551 ) [ RunTime:0.0054s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=2550 ) [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2015-08-27T10:07:25+08:00 ] 58.132.173.6 /admin.php?m=Home&c=User&a=listuser&m=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 30,30   [ RunTime:0.0004s ]
+SQL: UPDATE `app_user` SET `user_location`='江西' WHERE ( id=2549 ) [ RunTime:0.0203s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2548 ) [ RunTime:0.0042s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=2547 ) [ RunTime:0.0050s ]
+SQL: UPDATE `app_user` SET `user_location`='江西' WHERE ( id=2546 ) [ RunTime:0.0067s ]
+SQL: UPDATE `app_user` SET `user_location`='重庆' WHERE ( id=2545 ) [ RunTime:0.0050s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=2544 ) [ RunTime:0.0103s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2543 ) [ RunTime:0.0040s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2542 ) [ RunTime:0.0040s ]
+SQL: UPDATE `app_user` SET `user_location`='湖南' WHERE ( id=2541 ) [ RunTime:0.0089s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2540 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2539 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=2538 ) [ RunTime:0.0055s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2537 ) [ RunTime:0.0080s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2536 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=2535 ) [ RunTime:0.0061s ]
+SQL: UPDATE `app_user` SET `user_location`='河北' WHERE ( id=2534 ) [ RunTime:0.0070s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=2533 ) [ RunTime:0.0064s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2532 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2531 ) [ RunTime:0.0057s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2530 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='新疆' WHERE ( id=2529 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=2528 ) [ RunTime:0.0069s ]
+SQL: UPDATE `app_user` SET `user_location`='福建' WHERE ( id=2527 ) [ RunTime:0.0089s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=2526 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='重庆' WHERE ( id=2525 ) [ RunTime:0.0077s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2524 ) [ RunTime:0.0055s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=2523 ) [ RunTime:0.0059s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2522 ) [ RunTime:0.0061s ]
+SQL: UPDATE `app_user` SET `user_location`='浙江' WHERE ( id=2521 ) [ RunTime:0.0052s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2520 ) [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-08-27T10:07:40+08:00 ] 58.132.173.6 /admin.php?m=Home&c=User&a=listuser&m=admin&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 60,30   [ RunTime:0.0005s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=2519 ) [ RunTime:0.0071s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=2518 ) [ RunTime:0.0071s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2517 ) [ RunTime:0.0048s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2516 ) [ RunTime:0.0063s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=2515 ) [ RunTime:0.0070s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2514 ) [ RunTime:0.0077s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=2513 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2512 ) [ RunTime:0.0065s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=2511 ) [ RunTime:0.0071s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=2510 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=2509 ) [ RunTime:0.0054s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=2508 ) [ RunTime:0.0066s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=2507 ) [ RunTime:0.0043s ]
+SQL: UPDATE `app_user` SET `user_location`='湖南' WHERE ( id=2506 ) [ RunTime:0.0090s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=2505 ) [ RunTime:0.0059s ]
+SQL: UPDATE `app_user` SET `user_location`='福建' WHERE ( id=2504 ) [ RunTime:0.0068s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2503 ) [ RunTime:0.0060s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2502 ) [ RunTime:0.0058s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2501 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='河北' WHERE ( id=2500 ) [ RunTime:0.0043s ]
+SQL: UPDATE `app_user` SET `user_location`='河北' WHERE ( id=2499 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2498 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='湖北' WHERE ( id=2497 ) [ RunTime:0.0062s ]
+SQL: UPDATE `app_user` SET `user_location`='云南' WHERE ( id=2496 ) [ RunTime:0.0049s ]
+SQL: UPDATE `app_user` SET `user_location`='福建' WHERE ( id=2495 ) [ RunTime:0.0062s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=2494 ) [ RunTime:0.0056s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=2493 ) [ RunTime:0.0044s ]
+SQL: UPDATE `app_user` SET `user_location`='陕西' WHERE ( id=2492 ) [ RunTime:0.0063s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=2491 ) [ RunTime:0.0080s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2490 ) [ RunTime:0.0097s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2015-08-27T10:08:03+08:00 ] 58.132.173.6 /admin.php?m=Home&c=User&a=listuser&m=admin&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 90,30   [ RunTime:0.0005s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2489 ) [ RunTime:0.0068s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2488 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='吉林' WHERE ( id=2487 ) [ RunTime:0.0043s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=2486 ) [ RunTime:0.0071s ]
+SQL: UPDATE `app_user` SET `user_location`='湖北' WHERE ( id=2485 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='安徽' WHERE ( id=2484 ) [ RunTime:0.0049s ]
+SQL: UPDATE `app_user` SET `user_location`='辽宁' WHERE ( id=2483 ) [ RunTime:0.0058s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=2482 ) [ RunTime:0.0127s ]
+SQL: UPDATE `app_user` SET `user_location`='山西' WHERE ( id=2481 ) [ RunTime:0.0117s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=2480 ) [ RunTime:0.0047s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2479 ) [ RunTime:0.0114s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2478 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2477 ) [ RunTime:0.0079s ]
+SQL: UPDATE `app_user` SET `user_location`='湖北' WHERE ( id=2476 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2475 ) [ RunTime:0.0079s ]
+SQL: UPDATE `app_user` SET `user_location`='新疆' WHERE ( id=2474 ) [ RunTime:0.0046s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2473 ) [ RunTime:0.0044s ]
+SQL: UPDATE `app_user` SET `user_location`='上海' WHERE ( id=2472 ) [ RunTime:0.0091s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=2471 ) [ RunTime:0.0042s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2470 ) [ RunTime:0.0166s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2469 ) [ RunTime:0.0083s ]
+SQL: UPDATE `app_user` SET `user_location`='湖南' WHERE ( id=2468 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='北京' WHERE ( id=2467 ) [ RunTime:0.0103s ]
+SQL: UPDATE `app_user` SET `user_location`='河南' WHERE ( id=2466 ) [ RunTime:0.0051s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=2465 ) [ RunTime:0.0069s ]
+SQL: UPDATE `app_user` SET `user_location`='四川' WHERE ( id=2464 ) [ RunTime:0.0041s ]
+SQL: UPDATE `app_user` SET `user_location`='天津' WHERE ( id=2463 ) [ RunTime:0.0040s ]
+SQL: UPDATE `app_user` SET `user_location`='广东' WHERE ( id=2462 ) [ RunTime:0.0045s ]
+SQL: UPDATE `app_user` SET `user_location`='江苏' WHERE ( id=2461 ) [ RunTime:0.0043s ]
+SQL: UPDATE `app_user` SET `user_location`='山东' WHERE ( id=2460 ) [ RunTime:0.0141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-08-27T10:09:53+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-08-27T10:10:08+08:00 ] 58.132.173.6 /admin.php?m=admin&c=user&a=listuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='ios' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype='android' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` WHERE ( devtype!='ios' and devtype!='android' or devtype is null ) LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: current_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 37 行.
+NOTIC: [8] Undefined index: old_time /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined index: mobile /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `app_user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: where /usr/www/appserver/admin/Home/Controller/UserController.class.php 第 60 行.
+SQL: SELECT * FROM `app_user` ORDER BY id DESC LIMIT 0,30   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2015-08-27T10:10:15+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2015-08-27T10:12:19+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2015-08-27T10:12:21+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+ERR: 非法操作:listcast
+
+[ 2015-08-27T10:13:49+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+ERR: 非法操作:listcast
+
+[ 2015-08-27T10:14:09+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-08-27T10:14:11+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2015-08-27T10:51:50+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=sendcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+
+[ 2015-08-27T10:53:12+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=sendcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+
+[ 2015-08-27T10:54:02+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=sendcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+
+[ 2015-08-27T10:57:14+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2015-08-27T10:57:29+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 405 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 406 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 415 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 416 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 425 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 426 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 437 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 445 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 453 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2015-08-27T10:57:41+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-08-27T10:57:43+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Message&a=editmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: id /usr/www/appserver/admin/Home/Controller/MessageController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 405 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 406 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 415 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 416 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 425 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 426 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 437 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 445 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 453 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/f66b31d48250ea33683511d6554df0b0.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2015-08-27T10:57:53+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-08-27T10:57:54+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2015-08-27T10:58:51+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-08-27T10:58:53+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 405 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 406 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 415 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 416 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 425 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 426 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 437 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 445 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 453 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2015-08-27T10:59:10+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 405 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 406 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 415 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 416 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 425 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 426 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 437 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 445 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 453 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2015-08-27T10:59:13+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-08-27T11:00:34+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-08-27T11:04:35+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 363 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-08-27T11:07:32+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 405 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 406 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 415 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 416 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 425 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 426 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 437 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 445 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 453 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 461 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2015-08-27T11:09:34+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-08-27T11:10:02+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2015-08-27T11:19:51+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 363 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-08-27T11:59:38+08:00 ] 58.132.173.6 /admin.php?m=admin&c=activity&a=listactivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/ActivityController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+
+[ 2015-08-27T11:59:41+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+NOTIC: [8] Undefined index: submit /usr/www/appserver/admin/Home/Controller/LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-08-27T11:59:50+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE ( username='han' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username='han' and password='075afa2c290b0c2398909bfef308479d' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+
+[ 2015-08-27T11:59:51+08:00 ] 58.132.173.6 /admin.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+
+[ 2015-08-27T11:59:54+08:00 ] 58.132.173.6 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2015-08-27T11:59:56+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=selectapp&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-08-27T11:59:57+08:00 ] 58.132.173.6 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-08-27T12:00:12+08:00 ] 58.132.173.6 /admin.php?c=category&a=listcategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 AND pid=0 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `category` WHERE ( appid=1 ) ORDER BY cate_sort ASC, create_time ASC  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 382 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 382 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-08-27T12:00:14+08:00 ] 58.132.173.6 /admin.php?m=admin&c=activity&a=listactivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `activity_count`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/www/appserver/admin/Runtime/Cache/Home/4a1990044b7a30301eaf19a735db5574.php 第 364 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/www/appserver/admin/Runtime/Cache/Home/4a1990044b7a30301eaf19a735db5574.php 第 364 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/www/appserver/admin/Runtime/Cache/Home/4a1990044b7a30301eaf19a735db5574.php 第 364 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/www/appserver/admin/Runtime/Cache/Home/4a1990044b7a30301eaf19a735db5574.php 第 364 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/www/appserver/admin/Runtime/Cache/Home/4a1990044b7a30301eaf19a735db5574.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-08-27T12:00:15+08:00 ] 58.132.173.6 /admin.php?m=admin&c=activity&a=editactivity&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `activity_count` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2048] Non-static method Home\Controller\PublicController::getAppInfo() should not be called statically, assuming $this from incompatible context /usr/www/appserver/admin/Home/Controller/ActivityController.class.php 第 88 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\PublicController::getAppInfo(), called in /usr/www/appserver/admin/Home/Controller/ActivityController.class.php on line 88 and defined /usr/www/appserver/admin/Home/Controller/PublicController.class.php 第 74 行.
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: appid /usr/www/appserver/admin/Home/Controller/PublicController.class.php 第 76 行.
+SQL: SELECT * FROM `apps` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: appinfo /usr/www/appserver/admin/Runtime/Cache/Home/019f22303bfabcf84d14c824d245584a.php 第 355 行.
+NOTIC: [2] date() expects parameter 2 to be long, string given /usr/www/appserver/admin/Runtime/Cache/Home/019f22303bfabcf84d14c824d245584a.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-08-27T12:05:58+08:00 ] 58.132.173.6 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 363 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2015-08-27T12:06:00+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-08-27T12:06:06+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2015-08-27T12:07:07+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2015-08-27T12:07:56+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2015-08-27T12:09:32+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-08-27T13:04:50+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-08-27T13:05:10+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-08-27T13:05:41+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2015-08-27T13:06:06+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-08-27T13:06:09+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2015-08-27T13:06:13+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2015-08-27T13:06:15+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-08-27T13:06:17+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-08-27T13:06:20+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-08-27T13:06:23+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2015-08-27T13:06:25+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2015-08-27T13:06:27+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2015-08-27T13:06:30+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2015-08-27T13:08:36+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-08-27T13:08:57+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-08-27T13:09:02+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2015-08-27T13:09:05+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2015-08-27T13:09:09+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012951s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000807s ]
+
+[ 2015-08-27T13:09:57+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-08-27T13:10:01+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-08-27T13:10:06+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2015-08-27T13:10:40+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-08-27T13:11:04+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-08-27T13:11:33+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-08-27T13:12:00+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-08-27T13:12:10+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2015-08-27T13:13:03+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2015-08-27T13:13:30+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 87 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-08-27T14:01:15+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: userid /usr/www/appserver/admin/Home/Controller/MessageController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+
+[ 2015-08-27T14:01:18+08:00 ] 58.132.173.6 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: submit /usr/www/appserver/admin/Home/Controller/LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2015-08-27T14:03:07+08:00 ] 203.100.95.139 /admin.php?m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `admin_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE ( username='han' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin_user` WHERE ( username='han' and password='075afa2c290b0c2398909bfef308479d' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004871s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+
+[ 2015-08-27T14:03:08+08:00 ] 203.100.95.139 /admin.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/IndexController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+
+[ 2015-08-27T14:03:11+08:00 ] 203.100.95.139 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2015-08-27T14:03:14+08:00 ] 203.100.95.139 /admin.php?c=appmanagement&a=selectapp&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2015-08-27T14:03:15+08:00 ] 203.100.95.139 /admin.php?m=admin&c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2015-08-27T14:03:17+08:00 ] 203.100.95.139 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-08-27T14:03:57+08:00 ] 203.100.95.139 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 363 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2015-08-27T14:21:09+08:00 ] 203.100.95.139 /admin.php?m=admin&c=cast&a=listcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/4cd3943f2444369e4ed195f4a0e60883.php 第 363 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2015-08-27T14:21:19+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [8] Undefined index: id /usr/www/appserver/admin/Home/Controller/CastController.class.php 第 14 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'appserver.castmessage' doesn't exist
+
+[ 2015-08-27T14:22:19+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 396 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 404 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 412 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 428 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-08-27T14:26:44+08:00 ] 203.100.95.139 /admin.php?m=admin&c=Cast&a=editcast
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `apps`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 376 行.
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 385 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 395 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 403 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 411 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 419 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/b074cef1dafc276caa13c2314ebf104c.php 第 427 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-08-27T15:40:04+08:00 ] 58.132.173.6 /admin.php?m=admin&c=message&a=listmessage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `message` WHERE (  m_del=0 and appid=1 ) ORDER BY m_order asc,create_time desc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 369 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/9530bc6e3bfc793617887577a66057af.php 第 374 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+

@@ -1,0 +1,833 @@
+[ 2015-07-02T09:42:06+08:00 ] 58.132.173.6 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/5ae49521f4b4d9eb82c877f5df4cc67d.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2015-07-02T09:42:10+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012050s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2015-07-02T09:42:12+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=selectapp&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-07-02T09:42:13+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-07-02T09:59:35+08:00 ] 58.132.173.6 /admin.php?c=category&a=listcategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 ) ORDER BY cate_sort ASC, create_time ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2015-07-02T09:59:38+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `part1` WHERE ( cateid=28 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title_e /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 363 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 365 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 370 行.
+NOTIC: [8] Undefined index: con_show /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 397 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title_e /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 363 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 365 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 370 行.
+NOTIC: [8] Undefined index: con_show /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 397 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2015-07-02T10:05:34+08:00 ] 58.132.173.6 /admin.php?c=category&a=listcategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 ) ORDER BY cate_sort ASC, create_time ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2015-07-02T10:05:39+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=30 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2015-07-02T10:05:46+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=65 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=65 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=65 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2015-07-02T10:05:54+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `part1` WHERE ( cateid=28 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title_e /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 363 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 365 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 370 行.
+NOTIC: [8] Undefined index: con_show /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 397 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title_e /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 363 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 365 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 370 行.
+NOTIC: [8] Undefined index: con_show /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 397 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2015-07-02T10:06:08+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2015-07-02T15:04:24+08:00 ] 58.132.173.6 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/5ae49521f4b4d9eb82c877f5df4cc67d.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2015-07-02T15:04:33+08:00 ] 58.132.173.6 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/5ae49521f4b4d9eb82c877f5df4cc67d.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000415s ]
+
+[ 2015-07-02T16:57:47+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: appid /usr/www/appserver/admin/Home/Controller/AppmanagementController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: appname /usr/www/appserver/admin/Runtime/Cache/Home/ffb36f99d95538f85289046c940db68f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2015-07-02T16:57:48+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=selectapp&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `apps` WHERE ( appswitch=1 AND id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-07-02T16:57:49+08:00 ] 58.132.173.6 /admin.php?c=appmanagement&a=applist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `apps` ORDER BY createtime DESC  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2015-07-02T16:57:50+08:00 ] 58.132.173.6 /admin.php?c=category&a=listcategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 ) ORDER BY cate_sort ASC, create_time ASC  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-07-02T16:57:55+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `part1` WHERE ( cateid=28 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title_e /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 363 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 365 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 370 行.
+NOTIC: [8] Undefined index: con_show /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 397 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title_e /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 363 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 365 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 370 行.
+NOTIC: [8] Undefined index: con_show /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 397 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-07-02T16:58:00+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=editcontent&id=2&cateid=28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( appid='2' AND id=28 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part1` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `part1` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined variable: templatetype /usr/www/appserver/admin/Runtime/Cache/Home/f32051c5a07ccfa90c5effe9a7d1ffe6.php 第 373 行.
+NOTIC: [8] Undefined index: con_show /usr/www/appserver/admin/Runtime/Cache/Home/f32051c5a07ccfa90c5effe9a7d1ffe6.php 第 408 行.
+NOTIC: [8] Undefined index: con_show /usr/www/appserver/admin/Runtime/Cache/Home/f32051c5a07ccfa90c5effe9a7d1ffe6.php 第 409 行.
+NOTIC: [8] Undefined variable: appid /usr/www/appserver/admin/Runtime/Cache/Home/f32051c5a07ccfa90c5effe9a7d1ffe6.php 第 519 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+
+[ 2015-07-02T17:45:41+08:00 ] 58.132.173.6 /admin.php?c=category&a=listcategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 ) ORDER BY cate_sort ASC, create_time ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2015-07-02T17:45:43+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=30 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-07-02T17:45:53+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( id=65 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=65 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=65 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2015-07-02T17:45:59+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=66 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2015-07-02T17:46:07+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=30 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-07-02T17:46:09+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=editcontent&cateid=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `categoryname`,`categoryname_e` FROM `category` WHERE ( appid='2' AND id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 373 行.
+NOTIC: [8] Undefined variable: conid /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 382 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 400 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 401 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 410 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 411 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 421 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 430 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 431 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 441 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 450 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 459 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 466 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 469 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 470 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 529 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 530 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 531 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 540 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 541 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 542 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2015-07-02T17:48:27+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=insertcont&cateid=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/www/appserver/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: setnull_p /usr/www/appserver/admin/Home/Controller/ContentController.class.php 第 237 行.
+NOTIC: [8] Undefined index: setnull_0 /usr/www/appserver/admin/Home/Controller/ContentController.class.php 第 249 行.
+NOTIC: [8] Undefined index: setnull_1 /usr/www/appserver/admin/Home/Controller/ContentController.class.php 第 249 行.
+NOTIC: [8] Undefined index: setnull3_0 /usr/www/appserver/admin/Home/Controller/ContentController.class.php 第 259 行.
+NOTIC: [8] Undefined index: setnull3_1 /usr/www/appserver/admin/Home/Controller/ContentController.class.php 第 259 行.
+NOTIC: [8] Undefined index: id /usr/www/appserver/admin/Home/Controller/ContentController.class.php 第 262 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/www/appserver/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/www/appserver/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /usr/www/appserver/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined offset: 2 /usr/www/appserver/admin/Home/Controller/ContentController.class.php 第 308 行.
+NOTIC: [8] Undefined index: id /usr/www/appserver/admin/Home/Controller/ContentController.class.php 第 330 行.
+SQL: INSERT INTO `part2_3` (`title`,`cateid`,`appid`,`con_hard`,`con_top`,`con_new`,`con_order`,`problem`,`problem_audio`,`part2_audio`,`part2_answer`,`part2_chinese`,`part3_audio`,`part3_answer`,`part3_chinese`,`upload_time`,`create_name`,`create_time`) VALUES ('part2_3_01','30','2','0','0','0','0','question','./Public/Uploads/2015-07-02/559508eb92705.mp3','a:2:{i:0;s:45:\"./Public/Uploads/2015-07-02/559508eb939f2.mp3\";i:1;s:45:\"./Public/Uploads/2015-07-02/559508eb94ef5.mp3\";}','a:2:{i:0;s:12:\"这是p2-1-1\";i:1;s:12:\"这是p2-2-1\";}','a:2:{i:0;s:12:\"这是p2-1-2\";i:1;s:12:\"这是p2-2-2\";}','a:2:{i:0;s:45:\"./Public/Uploads/2015-07-02/559508eb960ab.mp3\";i:1;s:0:\"\";}','a:2:{i:0;s:6:\"p3-1-1\";i:1;s:6:\"p3-2-1\";}','a:2:{i:0;s:6:\"p3-1-2\";i:1;s:6:\"p3-2-2\";}','1435830507','admin','1435830507') [ RunTime:0.0095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2015-07-02T17:48:28+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=editcontent&cateid=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `categoryname`,`categoryname_e` FROM `category` WHERE ( appid='2' AND id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 373 行.
+NOTIC: [8] Undefined variable: conid /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 382 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 400 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 401 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 410 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 411 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 420 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 421 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 430 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 431 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 441 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 450 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 459 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 466 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 469 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 470 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 529 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 530 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 531 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 540 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 541 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/07677f905a83f5ddb1e008b1613c7e99.php 第 542 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2015-07-02T17:48:30+08:00 ] 58.132.173.6 /admin.php?c=category&a=listcategory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 AND pid=0 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 ) ORDER BY cate_sort ASC, create_time ASC  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/5e8ee00813e9f5979c399971351c7114.php 第 379 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2015-07-02T17:48:32+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=listcontent&cateid=30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `part2_3` WHERE ( cateid=30 AND appid=2 AND con_del=0 ) ORDER BY con_order DESC,id DESC  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `category` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: html /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 362 行.
+NOTIC: [8] Undefined index: title_e /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 363 行.
+NOTIC: [8] Undefined index: thumb_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 365 行.
+NOTIC: [8] Undefined index: cate_img /usr/www/appserver/admin/Runtime/Cache/Home/72809578d79b78e082e2b21f2b6aa023.php 第 370 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+

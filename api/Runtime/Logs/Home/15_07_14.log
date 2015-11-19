@@ -1,0 +1,15 @@
+[ 2015-07-14T11:53:13+08:00 ] 192.168.0.190 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=zrgh&mobile=18610905643&plantype=1&level=hhh&oldscore=5&targetscore=8%E5%88%86%E4%BB%A5%E4%B8%8A&testdate=2015-07-28&question=asdfsdf&mediaurl=nil
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [8] Undefined variable: save /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 149 行.
+NOTIC: [8] Undefined index: osskey /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 153 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: UPDATE `activity` SET `osskey`=NULL,`content`='a:11:{s:5:\"appid\";s:1:\"2\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"zrgh\";s:6:\"mobile\";s:11:\"18610905643\";s:8:\"plantype\";s:1:\"1\";s:5:\"level\";s:3:\"hhh\";s:8:\"oldscore\";s:1:\"5\";s:11:\"targetscore\";s:10:\"8分以上\";s:8:\"testdate\";s:10:\"2015-07-28\";s:8:\"question\";s:7:\"asdfsdf\";s:8:\"mediaurl\";s:3:\"nil\";}',`info_state`='1' WHERE ( mobile='18610905643' and activity_code='zrgh' ) [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+

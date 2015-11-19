@@ -1,0 +1,755 @@
+[ 2015-07-13T09:43:32+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=content&a=contentinfo&appid=2&mobile=18610905643&version=4.3.1&devtype=ios&uuid=01775B6A-D165-4CBE-8690-7FDA7DE875FE&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cid /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `part2_3` WHERE ( appid=2 and id=2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=2 and template='part2_3' and mobile='18610905643' and q_id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T09:45:14+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=content&a=contentinfo&appid=2&mobile=18610905643&version=4.3.1&devtype=ios&uuid=01775B6A-D165-4CBE-8690-7FDA7DE875FE&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cid /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `part2_3` WHERE ( appid=2 and id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=2 and template='part2_3' and mobile='18610905643' and q_id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-13T09:51:47+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=content&a=contentinfo&appid=2&mobile=18610905643&version=4.3.1&devtype=ios&uuid=01775B6A-D165-4CBE-8690-7FDA7DE875FE&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: cid /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `part2_3` WHERE ( appid=2 and id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0018s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=2 and template='part2_3' and mobile='18610905643' and q_id=2 ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-07-13T09:52:54+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=content&a=contentinfo&appid=2&mobile=18610905643&version=4.3.1&devtype=ios&uuid=01775B6A-D165-4CBE-8690-7FDA7DE875FE&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: cid /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `part2_3` WHERE ( appid=2 and id=2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=2 and template='part2_3' and mobile='18610905643' and q_id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T10:48:28+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'appserver.forecasts' doesn't exist
+
+[ 2015-07-13T10:48:41+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'appserver.forecasts' doesn't exist
+
+[ 2015-07-13T10:55:49+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+ERR: 非法操作:index
+
+[ 2015-07-13T11:17:47+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+ERR: 非法操作:index
+
+[ 2015-07-13T11:42:15+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2015-07-13T11:42:45+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2015-07-13T13:09:31+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0036s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where='18610905643' and activity_code='ktyc' ) LIMIT 1' at line 1
+
+[ 2015-07-13T13:10:04+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0019s ]
+SQL: INSERT INTO `activity` (`aid`,`activity_name`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('4','考题预测',NULL,'1','1',NULL,NULL,'1436764204','0') [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2015-07-13T13:10:47+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: INSERT INTO `activity` (`aid`,`activity_name`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('4','考题预测',NULL,'1','1',NULL,NULL,'1436764247','0') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001486s ]
+
+[ 2015-07-13T13:11:01+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-13T13:11:36+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T13:12:43+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004060s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-13T13:13:25+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0019s ]
+SQL: INSERT INTO `activity` (`mobile`,`aid`,`activity_name`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','4','考题预测',NULL,'1','1',NULL,NULL,'1436764405','0') [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2015-07-13T13:13:27+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0019s ]
+SQL: INSERT INTO `activity` (`mobile`,`aid`,`activity_name`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','4','考题预测',NULL,'1','1',NULL,NULL,'1436764407','0') [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2015-07-13T13:14:28+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0020s ]
+SQL: INSERT INTO `activity` (`mobile`,`appid`,`aid`,`activity_name`,`activity_code`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','2','4','考题预测','ktyc',NULL,'1','1',NULL,NULL,'1436764468','0') [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2015-07-13T13:14:31+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: r /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 59 行.
+
+[ 2015-07-13T13:16:33+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: r /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 59 行.
+
+[ 2015-07-13T13:17:27+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: r /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 59 行.
+
+[ 2015-07-13T13:17:52+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: r /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 60 行.
+
+[ 2015-07-13T13:18:18+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: r /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 53 行.
+
+[ 2015-07-13T13:18:28+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: r /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 53 行.
+
+[ 2015-07-13T13:18:51+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-13T13:19:16+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-13T13:19:34+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T13:31:33+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='ktyc' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+SQL: INSERT INTO `activity` (`mobile`,`appid`,`aid`,`activity_name`,`activity_code`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','2','4','考题预测','ktyc',NULL,'1','1',NULL,NULL,'1436765493','0') [ RunTime:0.0025s ]
+SQL: UPDATE `activity_count` SET `count`='1',`remaining_number`='49' WHERE ( id=4 ) [ RunTime:0.0024s ]
+
+[ 2015-07-13T13:36:18+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T13:36:45+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-13T13:37:28+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=kymk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='kymk' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='kymk' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-13T13:37:50+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=kymk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='kymk' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='kymk' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T13:39:01+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=kymk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'activity_switch' in 'where clause'
+
+[ 2015-07-13T13:39:42+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=kymk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='kymk' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='kymk' and activity_switch=1 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-13T13:40:42+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=kymk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='kymk' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='kymk' and activity_switch=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+SQL: INSERT INTO `activity` (`mobile`,`appid`,`aid`,`activity_name`,`activity_code`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','2','5','口语模考','kymk',NULL,'1','1',NULL,NULL,'1436766042','0') [ RunTime:0.0025s ]
+SQL: UPDATE `activity_count` SET `count`='1',`remaining_number`='79' WHERE ( id=5 ) [ RunTime:0.0096s ]
+
+[ 2015-07-13T13:43:54+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=kymk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='kymk' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-13T13:43:58+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=kymk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='kymk' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T13:44:07+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=oraltest&mobile=18610905643&mkdate=2015-07-21&mktype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+ERR: 非法操作:oraltest
+
+[ 2015-07-13T13:47:37+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=kymk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='kymk' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T13:47:42+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=kymk&mobile=18610905643&mkdate=2015-07-22&mktype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2015-07-13T13:47:56+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=kymk&mobile=18610905643&mkdate=2015-07-22&mktype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-13T14:01:53+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=kymk&mobile=18610905643&mkdate=2015-07-22&mktype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000664s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2015-07-13T14:08:49+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=kymk&mobile=18610905643&mkdate=2015-07-22&mktype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0034s ]
+SQL: UPDATE `activity` SET `content`='a:7:{s:5:\"appid\";s:1:\"2\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"kymk\";s:6:\"mobile\";s:11:\"18610905643\";s:6:\"mkdate\";s:10:\"2015-07-22\";s:6:\"mktype\";s:1:\"1\";s:9:\"PHPSESSID\";s:26:\"rgusgssg7tjmvdba9p6ascarv2\";}' WHERE ( mobile='18610905643' and activity_code='kymk' ) [ RunTime:0.0029s ]
+
+[ 2015-07-13T14:09:48+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=kymk&mobile=18610905643&mkdate=2015-07-22&mktype=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0026s ]
+SQL: UPDATE `activity` SET `content`='a:7:{s:5:\"appid\";s:1:\"2\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"kymk\";s:6:\"mobile\";s:11:\"18610905643\";s:6:\"mkdate\";s:10:\"2015-07-22\";s:6:\"mktype\";s:1:\"1\";s:9:\"PHPSESSID\";s:26:\"rgusgssg7tjmvdba9p6ascarv2\";}' WHERE ( mobile='18610905643' and activity_code='kymk' ) [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2015-07-13T14:12:40+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-07-13T14:14:01+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateInfo&en_name=ktyc&mobile=18610905643&testdate=2015-07-21&testarea=asdfsd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0027s ]
+SQL: UPDATE `activity` SET `content`='a:7:{s:5:\"appid\";s:1:\"2\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"ktyc\";s:6:\"mobile\";s:11:\"18610905643\";s:8:\"testdate\";s:10:\"2015-07-21\";s:8:\"testarea\";s:6:\"asdfsd\";s:9:\"PHPSESSID\";s:26:\"3e25u7r5f979loe038nfmqg024\";}' WHERE ( mobile='18610905643' and activity_code='ktyc' ) [ RunTime:0.0022s ]
+
+[ 2015-07-13T14:25:51+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=zrgh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='zrgh' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='zrgh' and activity_switch=1 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T14:26:53+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=yyjz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='yyjz' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='yyjz' and activity_switch=1 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-13T14:27:26+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=yyjz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='yyjz' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='yyjz' and activity_switch=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0019s ]
+SQL: INSERT INTO `activity` (`mobile`,`appid`,`aid`,`activity_name`,`activity_code`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','2','7','语音纠正','yyjz',NULL,'1','1',NULL,NULL,'1436768846','0') [ RunTime:0.0023s ]
+SQL: UPDATE `activity_count` SET `count`='1',`remaining_number`='49' WHERE ( id=7 ) [ RunTime:0.0022s ]
+
+[ 2015-07-13T14:28:08+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=voice_corrected&mobile=18610905643&mediaurl=http://benniaoyasi.oss-cn-beijing.aliyuncs.com/ysky/receive/18610905643/ios_2015_07_13_14_28_07.wav&mtype=1&cid=11fef19556b6456b8007de5333d88939
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+ERR: 非法操作:voice_corrected
+
+[ 2015-07-13T14:28:20+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=voice_corrected&mobile=18610905643&mediaurl=http://benniaoyasi.oss-cn-beijing.aliyuncs.com/ysky/receive/18610905643/ios_2015_07_13_14_28_07.wav&mtype=1&cid=11fef19556b6456b8007de5333d88939
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+ERR: 非法操作:voice_corrected
+
+[ 2015-07-13T14:31:55+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=yyjz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='yyjz' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-13T14:32:35+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=yyjz&mobile=18610905643&mediaurl=http://benniaoyasi.oss-cn-beijing.aliyuncs.com/ysky/receive/18610905643/ios_2015_07_13_14_32_33.wav&mtype=1&cid=11fef19556b6456b8007de5333d88939
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8] Undefined index: osskey /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0027s ]
+SQL: UPDATE `activity` SET `osskey`=NULL,`content`='a:8:{s:5:\"appid\";s:1:\"2\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"yyjz\";s:6:\"mobile\";s:11:\"18610905643\";s:8:\"mediaurl\";s:99:\"http://benniaoyasi.oss-cn-beijing.aliyuncs.com/ysky/receive/18610905643/ios_2015_07_13_14_32_33.wav\";s:5:\"mtype\";s:1:\"1\";s:3:\"cid\";s:32:\"11fef19556b6456b8007de5333d88939\";s:9:\"PHPSESSID\";s:26:\"j6f7p3hnhhrr1c6hhko9th2bk0\";}' WHERE ( mobile='18610905643' and activity_code='yyjz' ) [ RunTime:0.0027s ]
+
+[ 2015-07-13T14:33:51+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=yyjz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='yyjz' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='yyjz' and activity_switch=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0020s ]
+SQL: INSERT INTO `activity` (`mobile`,`appid`,`aid`,`activity_name`,`activity_code`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','2','7','语音纠正','yyjz',NULL,'1','1',NULL,NULL,'1436769231','0') [ RunTime:0.0022s ]
+SQL: UPDATE `activity_count` SET `count`='1',`remaining_number`='49' WHERE ( id=7 ) [ RunTime:0.0019s ]
+
+[ 2015-07-13T14:35:02+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=yyjz&mobile=18610905643&mediaurl=http://benniaoyasi.oss-cn-beijing.aliyuncs.com/ysky/receive/18610905643/ios_2015_07_13_14_35_01.wav&mtype=1&cid=11fef19556b6456b8007de5333d88939
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+NOTIC: [8] Undefined index: osskey /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0029s ]
+SQL: UPDATE `activity` SET `file_url`='http://benniaoyasi.oss-cn-beijing.aliyuncs.com/ysky/receive/18610905643/ios_2015_07_13_14_35_01.wav',`osskey`=NULL,`content`='a:8:{s:5:\"appid\";s:1:\"2\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"yyjz\";s:6:\"mobile\";s:11:\"18610905643\";s:8:\"mediaurl\";s:99:\"http://benniaoyasi.oss-cn-beijing.aliyuncs.com/ysky/receive/18610905643/ios_2015_07_13_14_35_01.wav\";s:5:\"mtype\";s:1:\"1\";s:3:\"cid\";s:32:\"11fef19556b6456b8007de5333d88939\";s:9:\"PHPSESSID\";s:26:\"j6f7p3hnhhrr1c6hhko9th2bk0\";}' WHERE ( mobile='18610905643' and activity_code='yyjz' ) [ RunTime:0.0033s ]
+
+[ 2015-07-13T14:37:36+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=zrgh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='zrgh' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='zrgh' and activity_switch=1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0019s ]
+SQL: INSERT INTO `activity` (`mobile`,`appid`,`aid`,`activity_name`,`activity_code`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','2','6','专人规划','zrgh',NULL,'1','1',NULL,NULL,'1436769456','0') [ RunTime:0.0022s ]
+SQL: UPDATE `activity_count` SET `count`='1',`remaining_number`='99' WHERE ( id=6 ) [ RunTime:0.0019s ]
+
+[ 2015-07-13T14:37:48+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=plan&mobile=18610905643&plantype=1&level=hhh&oldscore=5.5&targetscore=8%E5%88%86%E4%BB%A5%E4%B8%8A&testdate=2015-07-27&question=dsaf&mediaurl=nil
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+ERR: 非法操作:plan
+
+[ 2015-07-13T14:38:48+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=zrgh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='zrgh' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2015-07-13T14:39:00+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=zrgh&mobile=18610905643&plantype=1&level=hhh&oldscore=4%E5%88%86%E4%BB%A5%E4%B8%8B&targetscore=5.5&testdate=2015-07-28&question=ewrsadf&mediaurl=nil
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8] Undefined index: osskey /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0030s ]
+SQL: UPDATE `activity` SET `file_url`='nil',`osskey`=NULL,`content`='a:12:{s:5:\"appid\";s:1:\"2\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"zrgh\";s:6:\"mobile\";s:11:\"18610905643\";s:8:\"plantype\";s:1:\"1\";s:5:\"level\";s:3:\"hhh\";s:8:\"oldscore\";s:10:\"4分以下\";s:11:\"targetscore\";s:3:\"5.5\";s:8:\"testdate\";s:10:\"2015-07-28\";s:8:\"question\";s:7:\"ewrsadf\";s:8:\"mediaurl\";s:3:\"nil\";s:9:\"PHPSESSID\";s:26:\"e30but3vv9ormejktl9o55kge0\";}',`info_state`='1' WHERE ( mobile='18610905643' and activity_code='zrgh' ) [ RunTime:0.0028s ]
+
+[ 2015-07-13T14:42:17+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=ktyc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='ktyc' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='ktyc' and activity_switch=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0024s ]
+SQL: INSERT INTO `activity` (`mobile`,`appid`,`aid`,`activity_name`,`activity_code`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','2','4','考题预测','ktyc',NULL,'1','1',NULL,NULL,'1436769737','0') [ RunTime:0.0026s ]
+SQL: UPDATE `activity_count` SET `count`='1',`remaining_number`='49' WHERE ( id=4 ) [ RunTime:0.0023s ]
+
+[ 2015-07-13T14:42:23+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateInfo&en_name=ktyc&mobile=18610905643&testdate=2015-07-21&testarea=sfdgsdfg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+SQL: UPDATE `activity` SET `content`='a:7:{s:5:\"appid\";s:1:\"2\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"ktyc\";s:6:\"mobile\";s:11:\"18610905643\";s:8:\"testdate\";s:10:\"2015-07-21\";s:8:\"testarea\";s:8:\"sfdgsdfg\";s:9:\"PHPSESSID\";s:26:\"q0q7n4nvskpnbtak90rc1ulae1\";}',`info_state`='1' WHERE ( mobile='18610905643' and activity_code='ktyc' ) [ RunTime:0.0024s ]
+
+[ 2015-07-13T14:42:56+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=index&mobile=18610905643&en_name=zrgh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `activity` WHERE ( mobile='18610905643' and activity_code='zrgh' and appid=2 or appid=0 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `activity_count` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `activity_count` WHERE ( 1 and activity_code='zrgh' and activity_switch=1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0024s ]
+SQL: INSERT INTO `activity` (`mobile`,`appid`,`aid`,`activity_name`,`activity_code`,`content`,`number`,`count`,`file_url`,`osskey`,`create_time`,`info_state`) VALUES ('18610905643','2','6','专人规划','zrgh',NULL,'1','1',NULL,NULL,'1436769776','0') [ RunTime:0.0034s ]
+SQL: UPDATE `activity_count` SET `count`='1',`remaining_number`='99' WHERE ( id=6 ) [ RunTime:0.0022s ]
+
+[ 2015-07-13T14:43:22+08:00 ] 192.168.0.8 /appserver/api.php?appid=2&m=api&c=activity&a=updateinfo&en_name=zrgh&mobile=18610905643&plantype=1&level=hhh&oldscore=5&targetscore=8%E5%88%86%E4%BB%A5%E4%B8%8A&testdate=2015-07-28&question=asdfsdf&mediaurl=nil
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+NOTIC: [8] Undefined variable: save /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 149 行.
+NOTIC: [8] Undefined index: osskey /usr/www/appserver/api/Home/Controller/ActivityController.class.php 第 153 行.
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.0023s ]
+SQL: UPDATE `activity` SET `osskey`=NULL,`content`='a:12:{s:5:\"appid\";s:1:\"2\";s:1:\"m\";s:3:\"api\";s:7:\"en_name\";s:4:\"zrgh\";s:6:\"mobile\";s:11:\"18610905643\";s:8:\"plantype\";s:1:\"1\";s:5:\"level\";s:3:\"hhh\";s:8:\"oldscore\";s:1:\"5\";s:11:\"targetscore\";s:10:\"8分以上\";s:8:\"testdate\";s:10:\"2015-07-28\";s:8:\"question\";s:7:\"asdfsdf\";s:8:\"mediaurl\";s:3:\"nil\";s:9:\"PHPSESSID\";s:26:\"q0q7n4nvskpnbtak90rc1ulae1\";}',`info_state`='1' WHERE ( mobile='18610905643' and activity_code='zrgh' ) [ RunTime:0.0027s ]
+

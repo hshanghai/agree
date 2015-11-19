@@ -1,0 +1,247 @@
+[ 2015-07-24T09:13:15+08:00 ] 192.168.0.181 /appserver/api.php?appid=2&m=api&c=user&a=registered&mobile=18600562546&apptype=2&pwd=123456&version=4.3.1&devtype=ios&uuid=8B6395FC-EA16-4995-A27A-DBE70BB9CFC3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2015-07-24T09:35:24+08:00 ] 192.168.0.82 /appserver/api.php?c=content&a=listcontent_p2&devtype=android&appid=2&pageindex=0&pagenum=20&version=1.3.2&mobile=13488883174&uuid=352374051309774&leval=renwu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: pagennum /usr/www/appserver/api/Home/Controller/ContentController.class.php 第 113 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`template` FROM `category` WHERE ( categoryname_e='renwu' or categoryname='renwu' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `part2_3` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `part2_3` WHERE (  appid=2 and cateid=61 ) LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zdy_content` [ RunTime:0.0015s ]
+SQL: SELECT `id` FROM `zdy_content` WHERE ( appid=2 and template='part2_3' and mobile='13488883174' and q_id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-24T09:50:20+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22&devtype=android&version=1.3.2&uuid=c603a7cc53553d677b8b5470b2572469&mobile=13488883174
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2015-07-24T09:50:20+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=23&devtype=android&version=1.3.2&mobile=13488883174&uuid=352374051309774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=23 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2015-07-24T09:51:47+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22&devtype=android&version=1.3.2&uuid=c603a7cc53553d677b8b5470b2572469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2015-07-24T09:51:47+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=23&devtype=android&version=1.3.2&uuid=352374051309774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=23 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2015-07-24T09:54:14+08:00 ] 192.168.0.161 /appserver/api.php?appid=2&m=api&c=user&a=login&mobile=17701262756&password=19920929huyanan&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0663s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='17701262756' or username='17701262756' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2015-07-24T09:54:50+08:00 ] 192.168.0.161 /appserver/api.php?appid=2&m=api&c=user&a=login&mobile=17701262756&password=19920929huyanan&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='17701262756' or username='17701262756' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2015-07-24T10:06:51+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22&devtype=android&version=1.3.2&uuid=c603a7cc53553d677b8b5470b2572469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2015-07-24T10:06:51+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=23&devtype=android&version=1.3.2&uuid=352374051309774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=23 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2015-07-24T10:07:18+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22&devtype=android&version=1.3.2&uuid=c603a7cc53553d677b8b5470b2572469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2015-07-24T10:07:18+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=23&devtype=android&version=1.3.2&uuid=352374051309774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=23 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-07-24T10:07:43+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22&devtype=android&version=1.3.2&uuid=c603a7cc53553d677b8b5470b2572469
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000923s ]
+
+[ 2015-07-24T10:07:43+08:00 ] 192.168.0.82 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=23&devtype=android&version=1.3.2&uuid=352374051309774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 30 行.
+NOTIC: [2048] Non-static method Home\Controller\ContentController::templatename() should not be called statically, assuming $this from incompatible context /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 43 行.
+SQL: SELECT `template` FROM `category` WHERE ( id=23 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=23 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: leval /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 50 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+

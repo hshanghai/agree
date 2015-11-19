@@ -1,0 +1,25 @@
+[ 2015-07-03T09:24:09+08:00 ] 58.132.173.6 /admin.php?m=admin&c=Content&a=tests
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `content` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: submit /usr/www/appserver/admin/Home/Controller/ContentController.class.php 第 470 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: id /usr/www/appserver/admin/Runtime/Cache/Home/db5e6de1c88321e0527de5c1c0d35cef.php 第 4 行.
+NOTIC: [8] Undefined variable: re /usr/www/appserver/admin/Runtime/Cache/Home/db5e6de1c88321e0527de5c1c0d35cef.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+

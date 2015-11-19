@@ -1,0 +1,553 @@
+[ 2015-07-06T15:07:03+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123qwe&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined variable: data /usr/www/appserver/api/Home/Controller/UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2015-07-06T15:07:20+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123qwe&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined variable: data /usr/www/appserver/api/Home/Controller/UserController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2015-07-06T15:08:45+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123qwe&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+
+[ 2015-07-06T15:09:03+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123qwe&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+
+[ 2015-07-06T15:09:30+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123qwe&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined index: Members /usr/www/appserver/ThinkPHP/Library/Think/Db/Driver.class.php 第 992 行.
+
+[ 2015-07-06T15:09:49+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123qwe&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+
+[ 2015-07-06T15:10:17+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123qwe&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+
+[ 2015-07-06T15:12:05+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123qwe&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+
+[ 2015-07-06T15:12:44+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0009s ]
+
+[ 2015-07-06T15:13:00+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2015-07-06T15:13:03+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2015-07-06T15:13:19+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123qwe&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+
+[ 2015-07-06T15:13:45+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+
+[ 2015-07-06T15:13:58+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+
+[ 2015-07-06T15:14:29+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2015-07-06T15:14:51+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2015-07-06T15:17:12+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2015-07-06T16:35:22+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0029s ]
+
+[ 2015-07-06T16:36:52+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-07-06T16:37:15+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2015-07-06T17:23:02+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined variable: rs /usr/www/appserver/api/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: data /usr/www/appserver/api/Home/Controller/UserController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001207s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2015-07-06T17:23:36+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined variable: rs /usr/www/appserver/api/Home/Controller/UserController.class.php 第 39 行.
+NOTIC: [8] Undefined variable: data /usr/www/appserver/api/Home/Controller/UserController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2015-07-06T17:23:53+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined variable: rs /usr/www/appserver/api/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: data /usr/www/appserver/api/Home/Controller/UserController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2015-07-06T17:24:04+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined variable: rs /usr/www/appserver/api/Home/Controller/UserController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: data /usr/www/appserver/api/Home/Controller/UserController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2015-07-06T17:24:23+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined variable: rs /usr/www/appserver/api/Home/Controller/UserController.class.php 第 39 行.
+NOTIC: [8] Undefined variable: data /usr/www/appserver/api/Home/Controller/UserController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2015-07-06T17:24:31+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined variable: rs /usr/www/appserver/api/Home/Controller/UserController.class.php 第 40 行.
+NOTIC: [8] Undefined variable: data /usr/www/appserver/api/Home/Controller/UserController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2015-07-06T17:24:59+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined index: user_location /usr/www/appserver/api/Home/Controller/UserController.class.php 第 79 行.
+
+[ 2015-07-06T17:26:14+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined index: user_location /usr/www/appserver/api/Home/Controller/UserController.class.php 第 79 行.
+
+[ 2015-07-06T17:26:31+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: lite /usr/www/appserver/ThinkPHP/Library/Think/Db.class.php 第 37 行.
+NOTIC: [8] Undefined index: user_location /usr/www/appserver/api/Home/Controller/UserController.class.php 第 79 行.
+SQL: INSERT INTO `app_user` (`uid`,`username`,`password`,`random`,`email`,`regip`,`regdate`,`lastip`,`lastdate`,`mobile`,`user_location`) VALUES ('33332','18610905643','aa7dcbdfd88f1ab3e3d7d332e3863b30','829990','','','1435830445','127.0.0.1','0','18610905643',NULL) [ RunTime:0.0028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2015-07-06T17:31:32+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2015-07-06T17:31:55+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2015-07-06T17:32:10+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2015-07-06T17:32:45+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2015-07-06T17:33:25+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2015-07-06T17:33:38+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-07-06T17:33:57+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2015-07-06T17:35:31+08:00 ] 192.168.0.8 /appserver/api.php?m=api&c=user&a=login&mobile=18610905643&password=123123&ip=203.100.95.139&device=iPhoneSimulator
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `app_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `app_user` WHERE ( mobile='18610905643' or username='18610905643' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2015-07-06T18:07:01+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000925s ]
+
+[ 2015-07-06T18:09:14+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22&mobile=18610905643&version=4.2&devtype=ios&uuid=01775B6A-D165-4CBE-8690-7FDA7DE875FE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2015-07-06T18:09:16+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22&mobile=18610905643&version=4.2&devtype=ios&uuid=01775B6A-D165-4CBE-8690-7FDA7DE875FE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2015-07-06T18:11:59+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22&mobile=18610905643&version=4.2&devtype=ios&uuid=01775B6A-D165-4CBE-8690-7FDA7DE875FE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2015-07-06T18:13:45+08:00 ] 192.168.0.190 /appserver/api.php?m=api&c=category&a=listcategory&appid=2&pid=22&mobile=18610905643&version=4.2&devtype=ios&uuid=01775B6A-D165-4CBE-8690-7FDA7DE875FE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `apps` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `apps` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `category` WHERE ( appid=2 and pid=22 ) ORDER BY cate_sort ASC,id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+NOTIC: [8] Undefined index: cate_news /usr/www/appserver/api/Home/Controller/CategoryController.class.php 第 39 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
